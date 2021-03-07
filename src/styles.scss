@@ -234,8 +234,11 @@ button:hover {
   justify-content: center;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  outline: none;
 }
 #btn-next:hover,
+#btn-stop:hover,
+#btn-play:hover,
 #btn-prev:hover {
   background: rgba(0, 0, 0, 0.75);
 }
