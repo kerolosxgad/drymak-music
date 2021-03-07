@@ -65,7 +65,12 @@ window.onYouTubeIframeAPIReady = function () {
 
 function onPlayerReady(event) {
   const player = event.target;
-
+  document.getElementById("btn-play").addEventListener("click", () => {
+    player.playVideo();
+  });
+  document.getElementById("btn-stop").addEventListener("click", () => {
+    player.stopVideo();
+  });
   document.getElementById("btn-prev").addEventListener("click", () => {
     player.previousVideo();
   });
