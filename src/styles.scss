@@ -265,29 +265,25 @@ button:hover {
   }
 }
 
-//github
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
+@media only screen and (max-width: 500px) {
+    #player {
+      width: 180px;
+      height: 180px;
+    }
+    #input-url{
+      width: 220px;
+    }
+    #input-volume::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+    }
+    #btn-next,
+    #btn-stop,
+    #btn-play,
+    #btn-prev {
+      width: 35px;
+      height: 35px;
+
+    }
 }
-@keyframes octocat-wave {
-  0%,
-  100% {
-    transform: rotate(0);
-  }
-  20%,
-  60% {
-    transform: rotate(-25deg);
-  }
-  40%,
-  80% {
-    transform: rotate(10deg);
-  }
-}
-@media (max-width: 500px) {
-  .github-corner:hover .octo-arm {
-    animation: none;
-  }
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
-}
+
