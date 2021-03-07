@@ -6,7 +6,7 @@ const background = document.getElementById("background");
 
 const DEFAULT_BG =
   "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=10";
-const DEFAULT_URL = "https://www.youtube.com/watch?v=vmDDOFXSgAs&list=PLUWeEJxUdufzOI62fTtRZ0gh3DG8yW-EU";
+const DEFAULT_URL = "https://music.youtube.com/watch?v=IdLp0t7J_6s&list=PLPM39xTXXEw_x1MygHQ46RlwAUrOLPpSK";
 
 const params = new URLSearchParams(window.location.search);
 const playlistId = params.get("list");
@@ -18,7 +18,7 @@ if (playlistId) {
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 } else {
   background.style.backgroundImage = `url("${DEFAULT_BG}")`;
-  authorLabel.innerText = "Paste a youtube playlist URL to get started!";
+  authorLabel.innerText = "Paste a youtube/music playlist URL to get started!";
   document.getElementById("record").style.webkitAnimationPlayState = "paused";
   document.getElementById("import").style.display = "block";
   document.getElementById("controls").style.visibility = "hidden";
