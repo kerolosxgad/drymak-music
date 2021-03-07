@@ -1,4 +1,4 @@
-# [playlist-radio](https://music.drymak.me/)
+# [drymak-music](https://music.drymak.me/)
 
 Turns Youtube playlists into nice standalone pages. Great for parties, or to send to friends. https://music.drymak.me/
 
