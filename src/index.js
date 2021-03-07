@@ -69,7 +69,7 @@ function onPlayerReady(event) {
     player.playVideo();
   });
   document.getElementById("btn-stop").addEventListener("click", () => {
-    player.stopVideo();
+    player.pauseVideo();
   });
   document.getElementById("btn-prev").addEventListener("click", () => {
     player.previousVideo();
