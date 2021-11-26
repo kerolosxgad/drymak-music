@@ -6,7 +6,7 @@ const background = document.getElementById("background");
 
 const DEFAULT_BG =
   "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=10";
-const DEFAULT_URL = "https://music.youtube.com/watch?v=IdLp0t7J_6s&list=PLPM39xTXXEw_x1MygHQ46RlwAUrOLPpSK";
+const DEFAULT_URL = "https://music.youtube.com/watch?v=NZIB1MeCeqk&list=OLAK5uy_nnLm33Zzx_dUCbFoXuEkDzo1zgSpsZvp0";
 
 const params = new URLSearchParams(window.location.search);
 const playlistId = params.get("list");
