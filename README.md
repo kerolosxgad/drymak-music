@@ -2,7 +2,7 @@
 
 Turns Youtube playlists into nice standalone pages. Great for parties, or to send to friends. https://music.codexeg.net/
 
-![image](https://user-images.githubusercontent.com/4929974/89713446-93b6c180-d98f-11ea-8f5e-33f5e847c11c.png)
+![image](https://user-images.githubusercontent.com/39451310/143685670-9aa6ebba-79e9-4dce-9548-8626b6d8e045.PNG)
 
 ## Usage
 
@@ -30,4 +30,3 @@ To create a production build to the `dist` folder:
 ```sh
 npm run build
 ```
-
